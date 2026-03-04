@@ -2,10 +2,8 @@
 
 import time
 
-
 def hello():
     print("Hello, World!\t " + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-
 
 
 def printTime():
